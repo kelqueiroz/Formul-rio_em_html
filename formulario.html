@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-7 col-lg-6">
+            <h4 class="mb-3">Dados Pessoais</h4>
+            <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+
+                <div class="col-sm-12">
+                    <label for="firstName" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                        Valid Nome is required.
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label for="lastName" class="form-label">Cpf</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                        Valid Cpf is required.
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            <div class="col-6">
+                    <label for="username" class="form-label">Data de Nascimento</label>
+                    <div class="input-group has-validation">
+                        <span class="input-date-text">
+                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                    <div class="invalid-feedback">
+                        Your Data de Nascimento is required.
+                        </div>
+                    </div>
+            </div> <div class="col-6">
+
+
+                    <label for="username" class="form-label">Sexo</label>
+                    <div class="form-check">
+                            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                            <label class="form-check-label" for="credit">Masculino</label>
+
+                        <div class="form-check form-check-inline">
+                            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                            <label class="form-check-label" for="debit">Feminino</label>
+                        </div>
+                    </div>    
+            </div>  
